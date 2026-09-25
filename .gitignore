@@ -1,0 +1,26 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+
+# 生成产物：out/ 下除 .gitkeep 外全部忽略
+# （用白名单写法，以后再加产物类型[如 out/png/]不用改这里）
+out/*
+!out/.gitkeep
+
+# 真值工程解压后的临时文件（仓库里只存 .gz）
+reference/truth_project.HMI
+
+# 编辑器 / 系统
+.vscode/
+.idea/
+*.swp
+.DS_Store
+Thumbs.db
+
+# 临时 / 调试
+*.tmp
+_*.tmp

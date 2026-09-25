@@ -1,0 +1,10 @@
+# 统一换行符，避免 Windows/Linux 协作时整文件 diff
+* text=auto eol=lf
+
+# 二进制真值样本不可做换行转换
+*.HMI   binary
+*.HMI.gz binary
+*.zi    binary
+*.pa    binary
+*.bin   binary
+*.png   binary

@@ -1,0 +1,5 @@
+# 依赖
+#   pillow    —— 生成/解析图片素材（.i 需要 PIL 做 RGB565 转换）
+#   pyserial  —— 只用 tjc_sim.py 连屏时需要，不接硬件可不装
+pillow>=9.0
+pyserial>=3.5
